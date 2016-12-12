@@ -39,7 +39,8 @@ class VoteClassifier(ClassifierI):
         return conf
 
 if __name__ == '__main__':
-    allowed_word_types = ["J","N","!", ")", "("]
+    # allowed_word_types = ["J","N","V","!", ")", "("]
+    allowed_word_types = ["J" ]
     all_words = []
     documents = []
     short_pos = open("C:/Users/Pierre/AppData/Roaming/nltk_data\corpora/twitter_samples/positive_tweets.json",
@@ -73,8 +74,11 @@ if __name__ == '__main__':
     # print(all_words.most_common(100))
     # print(all_words["stupid"])
     # Trouve les mots les plus fréquent dans les reviews
-    word_features = list(all_words.keys())[:8000]
-
+    # word_features = list(all_words.keys())[:3000]
+    word_features = list()
+    for u in all_words.most_common(1000):
+        word_features.append(u[0])
+    print(word_features)
     pickle.dump(word_features, open("C:/Users/Pierre/PycharmProjects/NLTK/Pickle/word_features.p", "wb"))
 
     # open('C:/Users/Pierre/AppData/Roaming/nltk_data/corpora/movie_reviews/neg/cv000_29416.txt','r').read()
