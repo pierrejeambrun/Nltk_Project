@@ -54,10 +54,16 @@ voted_classifier = VoteClassifier(classifier, MNB_classifier, BernoulliNB_classi
 
 
 
-
+# We create the function to analyze sentiment, we do not tell about stuff without a 1 for confidence.
 def sentiment(text):
     feats = find_features(text)
-    return voted_classifier.classify(feats),voted_classifier.confidence(feats)
+    if voted_classifier.confidence(feats) == 1 and voted_classifier.classify(feats) == "pos":
+        return "positive", voted_classifier.confidence(feats)
+    if voted_classifier.confidence(feats) == 1 and voted_classifier.classify(feats) == "neg":
+        return "negative", voted_classifier.confidence(feats)
+    else:
+        return "neutral", voted_classifier.confidence(feats)
+
 
 def find_features(document):
     words = word_tokenize(document)

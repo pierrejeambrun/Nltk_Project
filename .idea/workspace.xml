@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d225c4ed-2771-4eae-8076-d962233c86ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pickle/BernoulliNB_classifier.p" afterPath="$PROJECT_DIR$/Pickle/BernoulliNB_classifier.p" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pickle/LinearSVC_classifier.p" afterPath="$PROJECT_DIR$/Pickle/LinearSVC_classifier.p" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pickle/LogisticRegression_Classifier.p" afterPath="$PROJECT_DIR$/Pickle/LogisticRegression_Classifier.p" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pickle/MNB_classifier.p" afterPath="$PROJECT_DIR$/Pickle/MNB_classifier.p" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pickle/NuSVC_classifier.p" afterPath="$PROJECT_DIR$/Pickle/NuSVC_classifier.p" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pickle/SGDClassifier_Classifier.p" afterPath="$PROJECT_DIR$/Pickle/SGDClassifier_Classifier.p" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pickle/naivebayes.p" afterPath="$PROJECT_DIR$/Pickle/naivebayes.p" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pickle/word_features.p" afterPath="$PROJECT_DIR$/Pickle/word_features.p" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sentiment_mod.py" afterPath="$PROJECT_DIR$/Sentiment_mod.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TrainingTweets.py" afterPath="$PROJECT_DIR$/TrainingTweets.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TweeterStreamSentimentAnalysis.py" afterPath="$PROJECT_DIR$/TweeterStreamSentimentAnalysis.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/TrainingTweets.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="479">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+              <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -57,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/TweeterStream.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -68,8 +57,8 @@
       <file leaf-file-name="TweeterStreamSentimentAnalysis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TweeterStreamSentimentAnalysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="30" selection-end-column="109" />
+            <state relative-caret-position="25">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -78,22 +67,10 @@
         </entry>
       </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tweepy/__init__.py">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/elasticsearch/client/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#186#303#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NltkBasics.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NltkBasics.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="380">
+              <caret line="88" column="2" lean-forward="true" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -102,8 +79,18 @@
       <file leaf-file-name="streaming.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tweepy/streaming.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="190" column="8" lean-forward="false" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="8" />
+            <state relative-caret-position="244">
+              <caret line="262" column="0" lean-forward="false" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/elasticsearch/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+              <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="59" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -124,11 +111,21 @@
       <file leaf-file-name="Sentiment_mod.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sentiment_mod.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="377">
+              <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
               <folding>
                 <element signature="e#1#14#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SGDClassifier_Classifier.p" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pickle/SGDClassifier_Classifier.p">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,12 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>movie</find>
-      <find>update</find>
-      <find>two</find>
-      <find>the</find>
-      <find>cross</find>
-      <find>explanation</find>
       <find>true</find>
       <find>curvball</find>
       <find>bayes</find>
@@ -165,7 +156,6 @@
       <find>full_text</find>
       <find>extended_twee</find>
       <find>_text</find>
-      <find>text</find>
       <find>@FoxNewsInsider</find>
       <find>FoxNew</find>
       <find>_name</find>
@@ -173,6 +163,14 @@
       <find>neg</find>
       <find>pos</find>
       <find>t</find>
+      <find>location</find>
+      <find>text</find>
+      <find>screen_nam</find>
+      <find>user</find>
+      <find>time_zo</find>
+      <find>entit</find>
+      <find>extended_t</find>
+      <find>tex</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -254,7 +252,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="json&#9;null&#9;null&#10;word_t&#9;null&#9;null&#10;tokenize&#9;null&#9;null&#10;MNB&#9;null&#9;null&#10;ber&#9;null&#9;null&#10;classifier&#9;FILE&#9;file://C:/Users/Pierre/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/sklearn/ensemble/voting_classifier.py&#10;nltk&#9;null&#9;null&#10;numpy&#9;FILE&#9;file://C:/Users/Pierre/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/sklearn/externals/joblib/numpy_pickle_utils.py&#10;sci&#9;null&#9;null&#10;predict&#9;null&#9;null&#10;FreqD&#9;null&#9;null&#10;corpus&#9;FILE&#9;file://C:/Users/Pierre/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/nltk/test/corpus.doctest&#10;sent_to&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="elas&#9;null&#9;null&#10;json&#9;null&#9;null&#10;word_t&#9;null&#9;null&#10;tokenize&#9;null&#9;null&#10;MNB&#9;null&#9;null&#10;ber&#9;null&#9;null&#10;classifier&#9;FILE&#9;file://C:/Users/Pierre/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/sklearn/ensemble/voting_classifier.py&#10;nltk&#9;null&#9;null&#10;numpy&#9;FILE&#9;file://C:/Users/Pierre/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/sklearn/externals/joblib/numpy_pickle_utils.py&#10;sci&#9;null&#9;null&#10;predict&#9;null&#9;null&#10;FreqD&#9;null&#9;null&#10;corpus&#9;FILE&#9;file://C:/Users/Pierre/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/nltk/test/corpus.doctest&#10;sent_to&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -522,10 +520,10 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19450317" sideWeight="0.54270834" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19450317" sideWeight="0.5453125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.64370215" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19450317" sideWeight="0.45729166" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19450317" sideWeight="0.4546875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -559,9 +557,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/nltk/corpus/reader/ipipan.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/nltk/corpus/__init__.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/nltk/corpus/reader/switchboard.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/nltk/corpus/reader/xmldocs.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -675,6 +670,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tweepy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#186#303#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/elasticsearch/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pickle/SGDClassifier_Classifier.p">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrainingTweets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TrainingMovieReviews.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-952">
@@ -685,68 +716,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tweepy/streaming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="190" column="8" lean-forward="false" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="59" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sentiment_mod.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/elasticsearch/client/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <element signature="e#1#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrainingTweets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="88" column="2" lean-forward="true" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TweeterStream.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tweepy/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Sentiment_mod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="377">
+          <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
           <folding>
-            <element signature="e#186#303#0" expanded="true" />
+            <element signature="e#1#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tweepy/streaming.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="262" column="0" lean-forward="false" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TweeterStreamSentimentAnalysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="30" selection-end-column="109" />
+        <state relative-caret-position="25">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
