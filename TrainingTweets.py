@@ -40,7 +40,7 @@ class VoteClassifier(ClassifierI):
 
 if __name__ == '__main__':
     # allowed_word_types = ["J","N","V","!", ")", "("]
-    allowed_word_types = ["J" ]
+    allowed_word_types = ["J"]
     all_words = []
     documents = []
     short_pos = open("C:/Users/Pierre/AppData/Roaming/nltk_data\corpora/twitter_samples/positive_tweets.json",

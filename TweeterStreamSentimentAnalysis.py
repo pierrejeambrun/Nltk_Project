@@ -1,9 +1,10 @@
+import Sentiment_mod
 from tweepy import Stream
 from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
-import time
 import json
-import Sentiment_mod
+import tweepy
+
 
 # consumer key, consumer secret, access token, access secret.
 ckey = '43JtDMW8WBHYfZ8U1T6VgkiiC'
@@ -18,7 +19,6 @@ class listener(StreamListener):
         tweet = all_data['text']
         print(tweet, Sentiment_mod.sentiment(tweet))
         print('\n')
-        time.sleep(0.2)
         return True
 
     def on_error(self, status):
@@ -27,6 +27,10 @@ class listener(StreamListener):
 
 auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
+# api= tweepy.API(auth)
+# api.update_status("Trying out my new app, Stream sentiment analysis ! #Tweepy #OAuth #ElasticSearch #NLTK")
+
 
 twitterStream = Stream(auth, listener())
-twitterStream.filter(track=["america"], languages=["en"])
+twitterStream.filter(track=["Ed "], languages=["en"])
+

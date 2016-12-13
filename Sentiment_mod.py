@@ -5,6 +5,7 @@ from statistics import mode, _counts
 from TrainingMovieReviews import find_features
 from nltk.tokenize import word_tokenize
 
+
 # Create documents, only adjectives in it key words.
 
 save_classifier = pickle.load(open("C:/Users/Pierre/PycharmProjects/NLTK/Pickle/documents.p", "rb"))
